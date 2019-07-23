@@ -6,20 +6,20 @@
           "conduit_list": {
             "intf0": {
               "if_list": [
-                "1g1",
-                "1g2"
+                "+1g1",
+                "+1g2"
               ]
             },
             "intf1": {
               "if_list": [
-                "1g1",
-                "1g2"
+                "+1g1",
+                "+1g2"
               ]
             },
             "intf2": {
               "if_list": [
-                "1g1",
-                "1g2"
+                "+1g1",
+                "+1g2"
               ]
             }
           },
@@ -173,7 +173,7 @@
           "pattern": "product"
         }
       ],
-      "mode": "single",
+      "mode": "team",
       "networks": {
         "admin": {
           "add_bridge": false,
@@ -324,7 +324,7 @@
       "start_up_delay": 30,
       "teaming": {
         "miimon": 100,
-        "mode": 1,
+        "mode": 4,
         "xmit_hash_policy": "layer2"
       }
     }
